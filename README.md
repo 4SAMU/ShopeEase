@@ -78,4 +78,4 @@ This application is designed to provide users with an easy-to-use interface to b
 
 ### Check out the live demo:
 
-[ShopEase: https://shopease.vercel.app](https://shopease.vercel.app/)
+[ShopEase: https://shop-ease.vercel.app](https://shopease.vercel.app/)
