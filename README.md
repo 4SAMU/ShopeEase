@@ -1,40 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ShopEase e-commerce Application
 
-## Getting Started
+Welcome to the ShopEase e-commerce Application! This application leverages the [FakestoreAPI](https://fakestoreapi.com/) to provide a seamless and interactive shopping experience. Users can explore a variety of products across different categories, including electronics, jewelry, men's clothing, and women's clothing.
 
-First, run the development server:
+### Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This application is designed to provide users with an easy-to-use interface to browse and purchase products from various categories. It integrates the FakestoreAPI, which offers a wide range of products in the following categories:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Electronics
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- Jewelry
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Men's Clothing
 
-## Learn More
+- Women's Clothing
 
-To learn more about Next.js, take a look at the following resources:
+### Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- `Product Browsing`: Users can browse products by categories.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `Product Details`: View detailed information about each product.
 
-## Deploy on Vercel
+- `Search Functionality`: Search for products by name or category.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `Shopping Cart`: Add products to the cart and view cart details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- `Checkout Process`: Seamless and secure checkout process.
+
+### Technologies Used
+
+- Frontend: [`Nextjs`](https://nextjs.org/), [`Material-UI`](https://mui.com/).
+- API:[ `FakestoreAPI`](https://fakestoreapi.com/)
+
+### Overall Guidelines
+
+1. `PascalCase` for React components, TypeScript types, and any other significant files.
+2. `camelCase` for context, utility files and corresponding style files for React components.
+3. `kebab-case` for folder names , CSS files and pages.
+
+### Setup and Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone <repository_url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+    cd <project_directory>
+   ```
+
+3. Install the dependencies:
+
+   ```shell
+   yarn install or npm install
+   ```
+
+4. Run the development server:
+
+   ```shell
+   yarn dev or npm run dev
+   ```
+
+5. Open the application in your browser:
+
+   ```shell
+    http://localhost:3000
+   ```
+
+### Check out the live demo:
+
+[ShopEase: https://shopease.vercel.app](https://shopease.vercel.app/)
