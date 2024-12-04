@@ -2,6 +2,11 @@
   "name": "challenge-react-store",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Samuel Nzomo",
+    "email": "samuelnzomo4@gmail.com",
+    "github": "https://github.com/4samu"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -13,9 +18,10 @@
     "@emotion/styled": "^11.13.5",
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
+    "axios": "^1.7.8",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",

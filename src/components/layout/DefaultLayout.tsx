@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
-import { MainWrapper } from "@/styles/common";
+import { MainWrapper } from "@/styles/common-styles";
 
 interface DefaultLayoutProps {
   children: React.ReactNode;
