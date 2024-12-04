@@ -1,3 +1,5 @@
+import { CartProvider } from "@/context/cartContext";
+import { ProductsProvider } from "@/context/productsContext";
 import { ThemeProvider } from "@/context/themeContext";
 import "@/styles/globals.css";
 import { NextPage } from "next";
@@ -19,6 +21,10 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
 
   // Render the layout with the current page
   return (
-    <ThemeProvider>{getLayout(<Component {...pageProps} />)}</ThemeProvider>
+    <ThemeProvider>
+      <ProductsProvider>
+        <CartProvider>{getLayout(<Component {...pageProps} />)}</CartProvider>
+      </ProductsProvider>
+    </ThemeProvider>
   );
 }

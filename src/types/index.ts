@@ -38,3 +38,7 @@ export interface ISingleCart {
   products: ProductInCart[];
   __v: number;
 }
+
+export interface ICartItem extends IProduct {
+  quantity: number;
+}

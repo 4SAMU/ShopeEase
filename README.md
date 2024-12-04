@@ -1,54 +1,68 @@
-# ShopEase e-commerce Application
+# ShopEase E-commerce Application
 
-Welcome to the ShopEase e-commerce Application! This application leverages the [FakestoreAPI](https://fakestoreapi.com/) to provide a seamless and interactive shopping experience. Users can explore a variety of products across different categories, including electronics, jewelry, men's clothing, and women's clothing.
+Welcome to the **ShopEase E-commerce Application**! This application leverages the [FakeStoreAPI](https://fakestoreapi.com/) to deliver a seamless and interactive shopping experience. Users can explore a variety of products across different categories, including electronics, jewelry, men's clothing, and women's clothing.
 
-### Table of Contents
+---
+
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Code Guidelines](#code-guidelines)
 - [Setup and Installation](#setup-and-installation)
+- [Live Demo](#check-out-the-live-demo)
+
+---
 
 ## Introduction
 
-This application is designed to provide users with an easy-to-use interface to browse and purchase products from various categories. It integrates the FakestoreAPI, which offers a wide range of products in the following categories:
+**ShopEase** is designed to provide users with an easy-to-use interface for browsing and purchasing products across various categories. By integrating the [FakeStoreAPI](https://fakestoreapi.com/), the application showcases a wide range of products for users to explore:
 
 - Electronics
-
 - Jewelry
-
 - Men's Clothing
-
 - Women's Clothing
 
-### Features
+---
 
-- `Product Browsing`: Users can browse products by categories.
+## Features
 
-- `Product Details`: View detailed information about each product.
+- **Product Browsing**: Users can browse products by category.
+- **Product Details**: View detailed information about individual products.
+- **Search Functionality**: Quickly search for products by name or category.
+- **Shopping Cart**: Add products to the cart and view cart details.
+- **Checkout Process**: Simulated checkout for a smooth user experience.
 
-- `Search Functionality`: Search for products by name or category.
+---
 
-- `Shopping Cart`: Add products to the cart and view cart details.
+## Technologies Used
 
-- `Checkout Process`: Seamless and secure checkout process.
+- **Frontend Framework**: [Next.js](https://nextjs.org/)
+- **UI Library**: [Material-UI](https://mui.com/)
+- **API**: [FakeStoreAPI](https://fakestoreapi.com/)
 
-### Technologies Used
+---
 
-- Frontend: [`Nextjs`](https://nextjs.org/), [`Material-UI`](https://mui.com/).
-- API:[ `FakestoreAPI`](https://fakestoreapi.com/)
+## Code Guidelines
 
-### Overall Guidelines
+1. **PascalCase**: Use for React components, TypeScript types, and other significant files.
+2. **camelCase**: Use for context, utility files, and styles associated with React components.
+3. **kebab-case**: Use for folder names, CSS files, and pages.
 
-1. `PascalCase` for React components, TypeScript types, and any other significant files.
-2. `camelCase` for context, utility files and corresponding style files for React components.
-3. `kebab-case` for folder names , CSS files and pages.
+---
 
-### Setup and Installation
+### Areas to improve on
 
-1. Clone the repository:
+- cache recently viewed items
 
-   ```shell
+## Setup and Installation
+
+Follow the steps below to set up the project locally:
+
+1. **Clone the repository**:
+
+   ```bash
    git clone <repository_url>
    ```
 
@@ -78,4 +92,4 @@ This application is designed to provide users with an easy-to-use interface to b
 
 ### Check out the live demo:
 
-[ShopEase: https://shop-ease.vercel.app](https://shopease.vercel.app/)
+[ShopEase: https://shopease-one.vercel.app](https://shopease-one.vercel.app/)
